@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import PortfolioRoute from './routes/PortfolioRoute.js';
-require("dotenv").config();
+import 'dotenv/config'
 
 const app = express();
 mongoose.connect('mongodb+srv://luthfidbz:FQd2iyRX40tJuVXL@luthfidb.x4sdo.mongodb.net/personalwebsite?retryWrites=true&w=majority')
